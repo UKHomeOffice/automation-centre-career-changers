@@ -20,7 +20,7 @@ Before starting:
 1. Open a terminal and navigate to your working directory.
 
    ```bash
-   mkdir -p _dev/fizzbuzz-plus && cd _dev/fizzbuzz-plus
+   mkdir -p _dev/kata-3-fizzbuzz-plus && cd _dev/kata-3-fizzbuzz-plus
    ```
 
 2. Run the following command to create a new .NET console app:
