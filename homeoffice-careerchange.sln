@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "solutions\ka
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeInterfaces", "solutions\kata-7-interfaces\ShapeInterfaces.csproj", "{F88D404D-271A-4085-8E29-7523E8129DAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLIntegration", "solutions\kata-9-sql-integration\SQLIntegration\SQLIntegration.csproj", "{5A9EAFB2-2B89-4744-8968-1454CED90064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,18 @@ Global
 		{F88D404D-271A-4085-8E29-7523E8129DAE}.Release|x64.Build.0 = Release|Any CPU
 		{F88D404D-271A-4085-8E29-7523E8129DAE}.Release|x86.ActiveCfg = Release|Any CPU
 		{F88D404D-271A-4085-8E29-7523E8129DAE}.Release|x86.Build.0 = Release|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Debug|x64.Build.0 = Debug|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Debug|x86.Build.0 = Debug|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Release|x64.ActiveCfg = Release|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Release|x64.Build.0 = Release|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Release|x86.ActiveCfg = Release|Any CPU
+		{5A9EAFB2-2B89-4744-8968-1454CED90064}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +109,7 @@ Global
 		{2AC6E6D3-5D3E-5718-2FB4-E8DE1A251F77} = {5A177B4B-6BD0-B7EC-F049-C9C04D6D229D}
 		{6D1AF053-8698-462E-8469-DF9CDC46F4A3} = {5A177B4B-6BD0-B7EC-F049-C9C04D6D229D}
 		{F88D404D-271A-4085-8E29-7523E8129DAE} = {5A177B4B-6BD0-B7EC-F049-C9C04D6D229D}
+		{5A9EAFB2-2B89-4744-8968-1454CED90064} = {5A177B4B-6BD0-B7EC-F049-C9C04D6D229D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDCD9F49-D428-49C4-B3E0-7ED1E800AA74}
