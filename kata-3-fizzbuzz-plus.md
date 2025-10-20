@@ -8,10 +8,9 @@ Implement the FizzBuzz Plus problem in a .NET 9 console application. This kata w
 
 Before starting:
 
-* Completion of **Kata 1 – Environment Setup**
-* Completion of **Kata 2 – Git Basics**
-* .NET 9 SDK installed and verified (`dotnet --version` to confirm)
-
+- Completion of **Kata 1 – Environment Setup**
+- Completion of **Kata 2 – Git Basics**
+- .NET 9 SDK installed and verified (`dotnet --version` to confirm)
 
 ## Steps
 
@@ -130,16 +129,12 @@ Before starting:
    git push -u origin main
    ```
 
+## Completion CriteriaÏ
 
-## Completion Criteria
-
-
-* .NET 9 console app created                  
-* FizzBuzz Plus logic implemented             
-* Application runs and produces correct output
-* Code committed to Git repository            
-
-
+- .NET 9 console app created
+- FizzBuzz Plus logic implemented
+- Application runs and produces correct output
+- Code committed to Git repository
 
 ## Resources
 
