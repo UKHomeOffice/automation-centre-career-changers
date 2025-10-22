@@ -18,12 +18,13 @@ GO
 USE Kata9DB;
 
 CREATE TABLE Departments (
-    DepartmentID INT PRIMARY KEY,
+
+    DepartmentID INT IDENTITY(1,1) PRIMARY KEY,
     DepartmentName NVARCHAR(50)
 );
 
 CREATE TABLE Employees (
-    EmployeeID INT PRIMARY KEY,
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
     FirstName NVARCHAR(50),
     LastName NVARCHAR(50),
     DepartmentId INT,
@@ -31,36 +32,41 @@ CREATE TABLE Employees (
 );
 
 CREATE TABLE Projects (
-    ProjectID INT PRIMARY KEY,
+    ProjectID INT IDENTITY(1,1) PRIMARY KEY,
     ProjectName NVARCHAR(100),
     DepartmentId INT,
     FOREIGN KEY (DepartmentId) REFERENCES Departments(DepartmentID)
 );
 
 INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
-(1, 'HR'),
-(2, 'IT'),
-(3, 'Finance');
+('HR'),
+('IT'),
+('Finance');
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentId) VALUES
-(1, 'Alice', 'Johnson', 2),
-(2, 'Bob', 'Smith', 1),
-(3, 'Charlie', 'Brown', 3);
+('Alice', 'Johnson', 2),
+('Bob', 'Smith', 1),
+('Charlie', 'Brown', 3);
 
 INSERT INTO Projects (ProjectID, ProjectName, DepartmentId) VALUES
-(1, 'Project Alpha', 2),
-(2, 'Project Beta', 1),
-(3, 'Project Gamma', 3),
-(4, 'Project Delta', 2),
-(5, 'Project Epsilon', 1),
-(6, 'Project Zeta', 3),
-(7, 'Project Eta', 2),
-(8, 'Project Theta', 1),
-(9, 'Project Iota', 3),
-(10, 'Project Kappa', 2);
+('Project Alpha', 2),
+('Project Beta', 1),
+('Project Gamma', 3),
+('Project Delta', 2),
+('Project Epsilon', 1),
+('Project Zeta', 3),
+('Project Eta', 2),
+('Project Theta', 1),
+('Project Iota', 3),
+('Project Kappa', 2);
 ```
 
+In the above example you can see each table has a primary key and the Employees and Projects tables have foreign keys referencing the Departments table. The primary keys are set to auto-increment using the IDENTITY property, so they can be omitted when inserting new records.
+
+Foreign keys are used to maintain referential integrity between the tables, to ensure that relationships between records are valid.
+
 ### Step 2: Create a Simple Application
+
 Create a .NET application in the usual way as per the previous katas and open your project in Visual Studio Code.
 
 Ensure that you can see the Solution Explorer inside Visual Studio Code (if not, press CMD+SHIFT+P and type "Solution Explorer" and select the appropriate option). You should have a list of your project files visible.
