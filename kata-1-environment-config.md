@@ -86,6 +86,10 @@ Open VS Code from Applications and verify it launches.
 - Prettier - Code formatter (by Prettier)
 - SQL Server (by Microsoft)
 
+### Add VS Code to your PATH
+
+- Open VS Code, press `Cmd+Shift+P`, type `shell command`, and select `Install 'code' command in PATH`.
+
 ---
 
 ### Install Bruno (API Testing)
