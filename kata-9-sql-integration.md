@@ -38,17 +38,17 @@ CREATE TABLE Projects (
     FOREIGN KEY (DepartmentId) REFERENCES Departments(DepartmentID)
 );
 
-INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
+INSERT INTO Departments (DepartmentName) VALUES
 ('HR'),
 ('IT'),
 ('Finance');
 
-INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentId) VALUES
+INSERT INTO Employees (FirstName, LastName, DepartmentId) VALUES
 ('Alice', 'Johnson', 2),
 ('Bob', 'Smith', 1),
 ('Charlie', 'Brown', 3);
 
-INSERT INTO Projects (ProjectID, ProjectName, DepartmentId) VALUES
+INSERT INTO Projects (ProjectName, DepartmentId) VALUES
 ('Project Alpha', 2),
 ('Project Beta', 1),
 ('Project Gamma', 3),
