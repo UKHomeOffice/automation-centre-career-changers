@@ -230,6 +230,6 @@ This will give you a basic API endpoint that you can hit within Bruno to retriev
 
 3. Create a new collection in Bruno called "Basic API".
 
-4. Inside the "Basic API" collection, create a new request for the GET endpoint: `https://localhost:5000/api/employees`
+4. Inside the "Basic API" collection, create a new request for the GET endpoint: `https://localhost:5000/api/employee`
 
 5. Send the request and you should see a list of employees along with their associated departments in the response.
