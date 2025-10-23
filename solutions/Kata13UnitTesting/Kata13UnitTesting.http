@@ -1,0 +1,6 @@
+@Kata13UnitTesting_HostAddress = http://localhost:5163
+
+GET {{Kata13UnitTesting_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
