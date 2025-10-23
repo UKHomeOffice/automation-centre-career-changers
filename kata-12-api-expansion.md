@@ -193,3 +193,19 @@ _Hint: A Department can have many Projects, so you will need to create a Project
 _Hint: Don't forget to update your AppDbContext to include a DbSet for Projects._
 
 _Hint: You will also need to update the GetDepartments endpoint to use a DTO to avoid circular reference issues, similar to what was done in Step 1._
+
+## Further Learning
+
+- Explore adding pagination to the GET endpoints to handle large datasets.
+- Implement filtering options for employees, such as filtering by last name or department.
+- Add insert, update, and delete endpoints for Departments and Projects. (Learn HTTP Verbs: POST, PUT, DELETE)
+
+## Useful Links
+
+- [ASP.NET Core Documentation](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-9.0)
+- [Entity Framework Core Documentation](https://docs.microsoft.com/en-us/ef/core/)
+- [Working with Related Data in EF Core](https://docs.microsoft.com/en-us/ef/core/querying/related-data/)
+- [Data Transfer Objects (DTOs) in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-9.0#use-dtos-to-protect-your-entities)
+- [Sorting and Filtering in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/sort-filter-page?view=aspnetcore-9.0)
+- [LINQ Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
+- [Understanding JSON Serialization in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-9.0#json-serialization)
