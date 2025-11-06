@@ -56,13 +56,18 @@ Before starting:
    git checkout -b feature/readme
    ```
 2. Create a `README.md` describing your environment setup.
-3. Stage and commit:
-
+   
    ```bash
    git add README.md
+   ```
+   
+4. Stage and commit:
+
+   ```bash
    git commit -m "Added README with environment summary"
    ```
-4. Merge it into `main`:
+   
+5. Merge it into `main`:
 
    ```bash
    git checkout main
