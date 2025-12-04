@@ -48,8 +48,8 @@ class Program
     private static string? GetOperationType()
     {
         Console.WriteLine("Select operation type:");
-        Console.WriteLine("1 - View All");
-        Console.WriteLine("2 - Insert New");
+        Console.WriteLine("V - View All");
+        Console.WriteLine("I - Insert New");
         Console.Write(": ");
         return Console.ReadLine();
     }
@@ -127,7 +127,7 @@ Create a new function for Department Operations
 ```csharp
  private static void HandleDepartmentOperations(string operationType)
     {
-        switch (operationType)
+        switch (operationType?.ToLower())
         {
             case "v":
                 DepartmentSQLHelper departmentHelper = new DepartmentSQLHelper();
@@ -142,7 +142,7 @@ Create a new function for Department Operations
                 string deptName = Console.ReadLine() ?? string.Empty;
                 Department newDept = new Department { DepartmentName = deptName };
                 DepartmentSQLHelper insertHelper = new DepartmentSQLHelper();
-                insertHelper.InsertDepartment(newDept);
+                insertHelper.InsertDepartment(deptName);
                 Console.WriteLine("Department inserted successfully.");
                 break;
             default:
@@ -152,7 +152,7 @@ Create a new function for Department Operations
     }
 ```
 
-Call this in the previous switch statement in Main:
+Add the following swich statement in Main of the Program, after the confirmation of selections
 
 ```csharp
 switch (itemType?.ToLower())
