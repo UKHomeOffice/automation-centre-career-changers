@@ -16,7 +16,7 @@ By completing this kata, you will:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Then confirm it’s available:
+Then confirm it’s available. You may need to open a new terminal tab to get this to work:
 
 ```bash
 brew --version
